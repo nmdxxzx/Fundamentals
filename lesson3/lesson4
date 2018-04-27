@@ -1,0 +1,21 @@
+#de quan ly code cho de
+ # class tenclass:
+     #thuoc tinh = variables
+     #phuong thuc = ham con
+class hcn:
+    width = 10
+    height = 100
+    def __init__(self,w,h):
+        self.width = w
+        self.height = h
+    def chuvi(self):
+        c = 2*(self.width+self.height)
+        return c
+#Tao
+a1 = hcn(10,100)
+a2 = hcn(30,100)
+
+cv =  a1.chuvi()
+print("a1 chuvi:",cv)
+cv2 = a2.chuvi()
+print("a2 chu vi",cv2)
